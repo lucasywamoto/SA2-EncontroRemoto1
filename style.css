@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: raleway;
+    font-variant-numeric: lining-nums;
+}
+
+header {
+    background-color: #000000;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1000px;
+    margin: 0 auto;
+} 
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu a {
+    font-weight: 500;
+    color: #fff;
+}
+
+.menu {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu img {
+    height: 24px;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #0066FF;
+    padding: 0 32px 0 32px;
+}
+
+.login-button img {
+    padding-right: 5px;
+}
+
+#menu-icon {
+    display: none;
+}
+
+.banner {
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-1 {
+    background-image: url(img/banner-background.jpg)
+}
+
+.banner-2 {
+    background-image: url(img/banner-2-background.jpg);
+}
+
+.banner-3 {
+    background-image: url(img/banner-3-background.jpg);
+}
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-banner h1 {
+    color: #fff;
+    font-size: 54px;
+    text-shadow: 4px 4px 0px black;
+}
+
+.conteudo-banner a {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+}
+
+.contatos {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 500px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+
+.contatos div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.contatos a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.contatos img {
+    height: 24px;
+    padding-right: 8px;
+}
+
+.produtos {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.produtos div {
+    width: 236px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.produtos img {
+    height: 120px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nome-produto {
+    height: 54px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #868484;
+    text-overflow: ellipsis;
+}
+
+.preco-produto {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0066FF;
+}
+
+.preco-parcelado {
+    font-weight: 100;
+    font-size: 14px;
+    color: #868484;
+
+}
+
+.botao-comprar {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #0066FF;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.departamentos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.departamentos a {
+    width: 236px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    height: 60px;
+    width: 100%;
+    background-color: #0066FF;
+    font-weight: 700;
+}
+
+.formulario {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.formulario input {
+    width: 236px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario button {
+    background-color: #000;
+    color: #fff;
+    padding: 6px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.localizacao iframe {
+    width: 100%;
+    height: 300px;
+    filter: grayscale(100%);
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 0 32px 0 ;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0066FF;
+    height: 32px;
+    font-size:10px;
+    font-weight: 700;
+}
+
+.footer-grid a {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer-grid div {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.social-footer {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.social-footer a>img {
+    height: 24px;
+    padding-right: 8px;
+}
+
+.social-footer img {
+    height: 40px;
+}
+
+.social-footer a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+}
+
+.menu-footer {
+    display: flex;
+    flex-flow: column;
+    font-weight: 700;
+}
+
+.footer-nav {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 110px;
+}
+
+.footer-nav a {
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-right: 1.5em;;
+}
+
+.login-page {
+    background-color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.login-form {
+    background-color: #0066FF;
+    width: 380px;
+    height: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.login-form label {
+    color: white;
+}
+
+.login-form div {
+    margin: 16px;
+}
+
+.form-enviar {
+    color: #0066FF;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+#email, #senha {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#email {
+    width: 185px;
+}
+
+@media screen and (max-width: 1080px) {
+    .container-grid {
+        width: 90%;
+    }
+
+    .contatos div {
+        width: 90%;
+    }
+    .produtos div:nth-child(4n+0) {
+        display: none;
+    }
+
+    .produtos div {
+        width: 256px;
+    }
+    
+    .departamentos a {
+        width: 48%;
+
+    }
+
+    .formulario p {
+        width: 250px;
+    }
+
+    .formulario input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        position: relative;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #0066FF;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        top: 80px;
+        padding-top: 16px;
+        font-size: 24px;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    .login-button {
+        display: flex;
+        align-items: center;
+        background-color: #000000;
+        width: 100%;
+        justify-content: center;
+        height: 120px;
+    }
+
+    #menu-icon {
+        display: inline-block;
+        width: 60px;
+    }
+
+    .container-grid {
+        width: 90%;
+    } 
+
+    .conteudo-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 32px;
+    }
+
+    .banner {
+        background-position: 40%;
+    }
+
+    .contatos span {
+        display: none;
+    }
+
+    .contatos img {
+        height: 36px;
+        padding: 0;
+    }
+
+    .contatos {
+        width: 60%;
+    }
+
+    .produtos div:nth-child(4n+0) {
+        display: none;
+    }
+
+    .produtos {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .produtos::-webkit-scrollbar {
+        display: none;
+      }
+      
+    .produtos div {
+        flex: 0 0 auto;
+        margin: 8px 8px 8px 8px;
+    }
+    
+    .departamentos a {
+        width: 100%;
+
+    }
+
+    .newsletter {
+        height: auto;
+        padding: 16px 0 16px 0;
+    }
+
+    .formulario {
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .formulario p {
+        width: 60%;
+        text-align: center;
+    }
+
+    .formulario input {
+        width: 200%;
+        height: 30px;
+    }
+
+    .footer-grid {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    
+    }
+
+    .departamentos-footer {
+        flex-basis: 60%;
+    }
+
+    .footer-nav {
+        flex-basis: auto;
+    }
+    .atendimento-footer {
+        flex-basis: 60%;
+    }
+
+    .social-footer {
+        flex-basis: auto;
+    }
+}
